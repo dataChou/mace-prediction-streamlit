@@ -70,6 +70,7 @@ mace-prediction-streamlit/
 业务背景：住院心内科患者需要快速评估发生主要不良心血管事件（MACE）的风险，以指导治疗方案和资源分配。
 
 成果：
+
 逻辑回归模型AUC=0.931，KS=0.724，临床可用
 
 提供交互式Web工具，一键输入 → 输出风险概率 + 分级建议
@@ -77,17 +78,23 @@ mace-prediction-streamlit/
 SHAP分析显示，主要危险因素为：ca（血管数）、thal（地中海贫血）、sex（性别）、cp（胸痛类型）
 
 业务建议：
+
 低危（<20%）：常规随访，控制危险因素
+
 中危（20%-50%）：建议进一步检查（如冠脉CTA），加强药物治疗
+
 高危（>50%）：强烈建议住院强化治疗，考虑介入评估
 
 ## 🤝 如何获取帮助或商务合作
 如果您有类似数据（医疗、金融、保险等），需要构建预测模型或评分卡：
+
 免费数据可行性评估：发送匿名数据样例，2天内回复方法建议
+
 完整项目合作：从数据清洗到交付业务工具，报价透明
 
 ## 联系方式
 微信：Amydlmy
+
 邮箱：scarlettzwm@gmail.com
 
 ## 📄 许可证
@@ -95,5 +102,7 @@ MIT License
 
 ## 🙏 致谢
 数据来源：UCI Machine Learning Repository – Heart Disease Dataset (Cleveland)
+
 R包作者：fastshap, shapviz, xgboost, pROC, caret
+
 Python包作者：Streamlit, scikit-learn, pandas, numpy, shap, joblib, Pillow
